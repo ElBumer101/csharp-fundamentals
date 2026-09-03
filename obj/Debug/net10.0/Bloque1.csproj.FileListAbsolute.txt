@@ -1,0 +1,14 @@
+C:\Users\thorf\OneDrive\Documents\proyectos\C#\Bloque1\obj\Debug\net10.0\Bloque1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thorf\OneDrive\Documents\proyectos\C#\Bloque1\obj\Debug\net10.0\Bloque1.AssemblyInfoInputs.cache
+C:\Users\thorf\OneDrive\Documents\proyectos\C#\Bloque1\obj\Debug\net10.0\Bloque1.AssemblyInfo.cs
+C:\Users\thorf\OneDrive\Documents\proyectos\C#\Bloque1\obj\Debug\net10.0\Bloque1.csproj.CoreCompileInputs.cache
+C:\Users\thorf\OneDrive\Documents\proyectos\C#\Bloque1\bin\Debug\net10.0\Bloque1.exe
+C:\Users\thorf\OneDrive\Documents\proyectos\C#\Bloque1\bin\Debug\net10.0\Bloque1.deps.json
+C:\Users\thorf\OneDrive\Documents\proyectos\C#\Bloque1\bin\Debug\net10.0\Bloque1.runtimeconfig.json
+C:\Users\thorf\OneDrive\Documents\proyectos\C#\Bloque1\bin\Debug\net10.0\Bloque1.dll
+C:\Users\thorf\OneDrive\Documents\proyectos\C#\Bloque1\bin\Debug\net10.0\Bloque1.pdb
+C:\Users\thorf\OneDrive\Documents\proyectos\C#\Bloque1\obj\Debug\net10.0\Bloque1.dll
+C:\Users\thorf\OneDrive\Documents\proyectos\C#\Bloque1\obj\Debug\net10.0\refint\Bloque1.dll
+C:\Users\thorf\OneDrive\Documents\proyectos\C#\Bloque1\obj\Debug\net10.0\Bloque1.pdb
+C:\Users\thorf\OneDrive\Documents\proyectos\C#\Bloque1\obj\Debug\net10.0\Bloque1.genruntimeconfig.cache
+C:\Users\thorf\OneDrive\Documents\proyectos\C#\Bloque1\obj\Debug\net10.0\ref\Bloque1.dll
