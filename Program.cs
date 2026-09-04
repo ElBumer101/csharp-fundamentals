@@ -21,11 +21,10 @@ Console.WriteLine(resultado1);
 Console.WriteLine("- - - - - - - - -");
 
 //extraer texto
-var datos ="Joseph, 17,Mexico";
+var datos ="Joseph, 17, Mexico";
 string[] partes = datos.Split(',');
-Console.WriteLine(partes[0]);
-Console.WriteLine(partes[1]);
-Console.WriteLine(partes[2]);
+Console.WriteLine($"Encuentra un texto: {parte [0]}, {parte[1]}, {parte[2]}");
+
 
 
 Console.WriteLine("- - - - - - - - -");
@@ -33,7 +32,7 @@ Console.WriteLine("- - - - - - - - -");
 //Encuentra un texto Contains(texto)
 var nombre2 = "Thorffinth";
 bool buscaOr = nombre2.Contains("or");
-Console.WriteLine(buscaOr);
+Console.WriteLine($"Encuentra un texto: {buscaOr}");
 
 
 Console.WriteLine("- - - - - - - - -");
@@ -51,4 +50,15 @@ Console.WriteLine("- - - - - - - - -");
 //devuelve la posicion a un numero IndexOf(texto)
 var nombre3 = "Thorffinth";
 var buscarNumero = nombre3.IndexOf("t");//resultado = 8
-Console.WriteLine(buscarNumero);
+Console.WriteLine($"Devuelve la operacion Thorffinth a numero = {buscarNumero}");
+
+Console.WriteLine("- - - - - - - - -"); 
+
+//Reemplazar texto Replace(textoViejo, textoNuevo)
+var cambiar = "Texto Remplazada: {Thorffinth0}";
+var nuevoTexto = cambiar.Replace("Thorffinth", "Hamburguesa");
+Console.WriteLine(nuevoTexto);
+//Uso practico 
+var telefono = $"Numero de telefono: {123-456-7890}";
+var limpio = telefono.Replace("-", "");
+Console.WriteLine(limpio);
