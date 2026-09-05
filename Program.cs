@@ -68,7 +68,7 @@ var UserVip = "Thorffinth";
 bool accesoUserVip = true;
 if (accesoUserVip)
 {
-    Console.WriteLine($"{UserVip} tiene acceso. Puede pasar");
+    Console.WriteLine($"{UserVip} tiene acceso. Puede pasar.");
 }
 else
 {
