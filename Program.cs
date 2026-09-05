@@ -20,10 +20,10 @@ Console.WriteLine(resultado1);
 
 Console.WriteLine("- - - - - - - - -");
 
-//extraer texto
+//Quita las "," con Split(´,´);
 var datos ="Joseph, 17, Mexico";
 string[] partes = datos.Split(',');
-Console.WriteLine($"Encuentra un texto: {parte [0]}, {parte[1]}, {parte[2]}");
+Console.WriteLine($"Encuentra un texto: {partes[0]}, {partes[1]}, {partes[2]}");
 
 
 
@@ -62,3 +62,29 @@ Console.WriteLine(nuevoTexto);
 var telefono = $"Numero de telefono: {123-456-7890}";
 var limpio = telefono.Replace("-", "");
 Console.WriteLine(limpio);
+
+//Bool Usuario vip
+var UserVip = "Thorffinth";
+bool accesoUserVip = true;
+if (accesoUserVip)
+{
+    Console.WriteLine($"{UserVip} tiene acceso. Puede pasar");
+}
+else
+{
+    Console.WriteLine("NO tienes acceso. No puedes pasar.");
+}
+
+// Bool Ambos iguales
+var nombre4 = "Thorffinth";
+var pasaporteValido = true;
+var edadPermitida = 18;
+bool pasaportePermitido = pasaporteValido && (edadPermitida >= 18);
+if (pasaportePermitido)
+{
+    Console.WriteLine($"{nombre4}tienes permiso para sacar un pasaporte.");
+}
+else
+{
+    Console.WriteLine($"No tienes los requisitos, no puedes pasar");
+}
