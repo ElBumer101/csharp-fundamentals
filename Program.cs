@@ -63,6 +63,8 @@ var telefono = $"Numero de telefono: {123-456-7890}";
 var limpio = telefono.Replace("-", "");
 Console.WriteLine(limpio);
 
+Console.WriteLine("- - - - - - - - -"); 
+
 //Bool Usuario vip
 var UserVip = "Thorffinth";
 bool accesoUserVip = true;
@@ -74,6 +76,8 @@ else
 {
     Console.WriteLine("NO tienes acceso. No puedes pasar.");
 }
+
+Console.WriteLine("- - - - - - - - -"); 
 
 // Bool Ambos iguales
 var nombre4 = "Thorffinth";
@@ -87,4 +91,26 @@ if (pasaportePermitido)
 else
 {
     Console.WriteLine($"No tienes los requisitos, no puedes pasar.");
+
 }
+
+Console.WriteLine("- - - - - - - - -"); 
+
+//Convertir texto a numero
+bool exito = int.TryParse("18", out int numeroTryparse);
+Console.WriteLine($"Este numero esta echo con Tryparse {numeroTryparse}");
+
+Console.WriteLine("- - - - - - - - -"); 
+
+//Tryparse con bool
+Console.WriteLine("¿Cual es tu edad?");
+string? tuEdad = Console.ReadLine();
+if (int.TryParse (tuEdad, out int ResultadoTryparse))
+{
+    Console.WriteLine($"Tu edad es valida {ResultadoTryparse}.");
+}
+else
+{
+    Console.WriteLine("Escriba solo un numero, sin letras y sin simbolos");
+}
+
