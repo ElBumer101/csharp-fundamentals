@@ -66,7 +66,7 @@ Console.WriteLine(limpio);
 Console.WriteLine("- - - - - - - - -"); 
 
 //Bool Usuario vip
-var UserVip = "Thorffinth";
+var UserVip = "Thorffinth.";
 bool accesoUserVip = true;
 if (accesoUserVip)
 {
@@ -116,7 +116,7 @@ else
 
 Console.WriteLine("- - - - - - - - -"); 
 
-//Null texti sin valor bool
+//Null texti sin valor bool 
 Console.WriteLine($"Ingresa un texto:");
 string? valorNull = Console.ReadLine();
 if (valorNull != null)
@@ -126,4 +126,5 @@ if (valorNull != null)
 else
 {
     Console.WriteLine("No hay ningun dato valido");
+
 }
