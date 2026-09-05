@@ -86,5 +86,5 @@ if (pasaportePermitido)
 }
 else
 {
-    Console.WriteLine($"No tienes los requisitos, no puedes pasar");
+    Console.WriteLine($"No tienes los requisitos, no puedes pasar.");
 }
