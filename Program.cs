@@ -114,3 +114,16 @@ else
     Console.WriteLine("Escriba solo un numero, sin letras y sin simbolos");
 }
 
+Console.WriteLine("- - - - - - - - -"); 
+
+//Null texti sin valor bool
+Console.WriteLine($"Ingresa un texto:");
+string? valorNull = Console.ReadLine();
+if (valorNull != null)
+{
+    Console.WriteLine($"El texto ingresado es el siguiente {valorNull}");
+}
+else
+{
+    Console.WriteLine("No hay ningun dato valido");
+}
