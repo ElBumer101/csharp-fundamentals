@@ -131,6 +131,7 @@ else
 
 Console.WriteLine("- - - - - - - - -"); 
 
+//Esta parte del codigo es detenido por ReadLine, no se mostrara el resultado en pantalla.
 int? EdadNull = 25;
 if (EdadNull.HasValue)
 {
@@ -151,4 +152,25 @@ if (NombreNull != null)
 else
 {
     Console.WriteLine("Error.");
+}
+
+Console.WriteLine("- - - - - - - - -"); 
+
+//Condicionales if/else if/ else.
+int calificaciones = 82;
+if ( calificaciones >= 90)
+{
+    Console.WriteLine("Tu calificaciones A.");
+}
+else if (calificaciones >= 80)
+{
+    Console.WriteLine("Tu calificacion es B");
+}
+else if (calificaciones >= 70)
+{
+    Console.WriteLine("Tu calificacion es C");
+}
+else
+{
+    Console.WriteLine("Reprobado");
 }
