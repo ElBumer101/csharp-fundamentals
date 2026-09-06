@@ -59,7 +59,7 @@ var cambiar = "Texto Remplazada: {Thorffinth0}";
 var nuevoTexto = cambiar.Replace("Thorffinth", "Hamburguesa");
 Console.WriteLine(nuevoTexto);
 //Uso practico 
-var telefono = $"Numero de telefono: {123-456-7890}";
+var telefono = "Numero de telefono: 123-456-7890";
 var limpio = telefono.Replace("-", "");
 Console.WriteLine(limpio);
 
@@ -86,7 +86,7 @@ var edadPermitida = 18;
 bool pasaportePermitido = pasaporteValido && (edadPermitida >= 18);
 if (pasaportePermitido)
 {
-    Console.WriteLine($"{nombre4}tienes permiso para sacar un pasaporte.");
+    Console.WriteLine($"{nombre4} tienes permiso para sacar un pasaporte.");
 }
 else
 {
@@ -96,7 +96,7 @@ else
 
 Console.WriteLine("- - - - - - - - -"); 
 
-//Convertir texto a numero
+//Convertir texto a numero           n   m       
 bool exito = int.TryParse("18", out int numeroTryparse);
 Console.WriteLine($"Este numero esta echo con Tryparse {numeroTryparse}");
 
@@ -127,4 +127,28 @@ else
 {
     Console.WriteLine("No hay ningun dato valido");
 
+}
+
+Console.WriteLine("- - - - - - - - -"); 
+
+int? EdadNull = 25;
+if (EdadNull.HasValue)
+{
+    Console.WriteLine($"Tu edad es correcta {EdadNull.Value}");
+}
+else
+{
+    Console.WriteLine("Error ");
+}
+
+Console.WriteLine("- - - - - - - - -"); 
+
+string? NombreNull = "Joseph";
+if (NombreNull != null)
+{
+    Console.WriteLine("Correcto");
+}
+else
+{
+    Console.WriteLine("Error.");
 }
