@@ -174,3 +174,19 @@ else
 {
     Console.WriteLine("Reprobado");
 }
+
+Console.WriteLine("- - - - - - - - -"); 
+
+//  Operador Ternario 1 
+int edadTernario = 18;
+string OperadorTernario = (edadTernario >=18) ? "Es mayor de edad." : "Es menor de edad.";
+Console.WriteLine($"Resultado1: {OperadorTernario}");
+// Operador Ternario 2  
+bool accesoBanco = true;
+string taquillaDinero = accesoBanco ?  "Tiene saldo en su cuenta" : "No tiene salfo en su cuenta";
+Console.WriteLine($"Resultado 2: {taquillaDinero}");
+//Operador Ternario null/ cambia null a texto
+string? usuarioNull = "Thorffinth";
+string datosCliente = (usuarioNull != null) ? $"Bienvenido {usuarioNull}." : "Hola invitado";
+Console.WriteLine($"Resultado 3: {datosCliente}");
+
