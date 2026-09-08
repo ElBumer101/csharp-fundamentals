@@ -1,29 +1,9 @@
-﻿//string interpolacion ($".")
-using System.Data;
-
-string nombre = "Thorffinth";
-int edad = 67;
-string amigos = "no tengo amigos";
-string gei = "Crazy";
-string resultaInterpolacion = $"Mi nombre es {nombre}. Tengo {edad} años y {amigos}, mi novia es {gei}.";
-
-Console.WriteLine(resultaInterpolacion);
-
-Console.WriteLine("- - - - - - - - -");
-
-//Este es un corte de texto (Substring)
-var nombre1 = "Thorffinth";
-var oficio = "Pogramador";
-var parte = oficio.Substring(0, 4);
-var resultado1 = $"Mi nombre es {nombre1} y solo agarrare estas letras {parte}";
-Console.WriteLine(resultado1);
-
-Console.WriteLine("- - - - - - - - -");
+﻿
 
 //Quita las "," con Split(´,´);
 var datos ="Joseph, 17, Mexico";
 string[] partes = datos.Split(',');
-Console.WriteLine($"Encuentra un texto: {partes[0]}, {partes[1]}, {partes[2]}");
+Console.WriteLine($"Encuent: {partes[0]}, {partes[1]}, {partes[2]}");
 
 
 
@@ -189,4 +169,6 @@ Console.WriteLine($"Resultado 2: {taquillaDinero}");
 string? usuarioNull = "Thorffinth";
 string datosCliente = (usuarioNull != null) ? $"Bienvenido {usuarioNull}." : "Hola invitado";
 Console.WriteLine($"Resultado 3: {datosCliente}");
+
+Console.WriteLine("- - - - - - - - -");
 
