@@ -25,12 +25,20 @@ string? nombreUsuario = Console.ReadLine();
 Console.WriteLine("Tu edad: ");
 string? edadUsuario = Console.ReadLine();
 int.TryParse(edadUsuario, out int edad1);
-string verificar = (edad1 >=18) ? "Edad valida." : "Eres menor de edad.";
+if (edad1 >= 18)
+{
+    Console.WriteLine($"ñ{nombreUsuario} Puedes tener tu pasaporte");
+}
+else
+{
+    Console.WriteLine($"{nombreUsuario} No cumples com los requisitos.");
+    return;
+}
 
-Console.WriteLine("Tienes un historial limpio?: ");
-bool historialLimpio = true;
-string historial = historialLimpio ? "Puedes tener tu pasaporte." : "Pasaporte denegado.";
+Console.WriteLine("Tienes un historial limpio? S/N: ");
+string? historialVerificar = Console.ReadLine();
+string historial = (historialVerificar.ToLower() == "s") ? "Puedes tener tu pasaporte." : "Pasaporte denegado.";
 
 Console.WriteLine($"Bienvenido {nombreUsuario}");
-Console.WriteLine($"Tienes {verificar} ");
+Console.WriteLine($"Tienes {edad1} ");
 Console.WriteLine($"¿Tienes un historial limpio? {historial}");
