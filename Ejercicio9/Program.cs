@@ -25,4 +25,7 @@ while (true)
             Console.WriteLine($"{nombreUsuario} error, Opcion no valida");
             break;
     }
-}
+}   
+
+
+
