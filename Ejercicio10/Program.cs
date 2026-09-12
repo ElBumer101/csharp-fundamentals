@@ -37,13 +37,13 @@ while (true)
 
         case "2":
         case "socio":
-            double totalsocio = verificarProducto = 0.70;
+            double totalsocio = verificarProducto * 0.70;
             Console.WriteLine($"{nombreUsuario} Tu descuento fue aplicadeo del 30%. Total a pagar: {totalsocio}");
             break;
 
         case "3":
         case "cliente general":
-            double totalClienteGeneral = verificarProducto = 0.0;
+            double totalClienteGeneral = verificarProducto;
             Console.WriteLine($"{nombreUsuario} No tienes descuentos. Total a pagar: {totalClienteGeneral}!");
             break;
 
