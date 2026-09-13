@@ -9,4 +9,4 @@ string? verificar = calificacion switch
     < 70 => "Date de baja"
 };
 
-Console.WriteLine($" {nombreEstudiante}. Los resultados de tu calificaico: {verificar} ");
+Console.WriteLine($" {nombreEstudiante}. Los resultados de tu calificaico: {verificar}. ");

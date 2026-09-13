@@ -13,9 +13,9 @@ string categoria = (edad >= 18) ? "Adulto" : "Menor";
 double descuento = (categoria == "Adulto") ? 0.10 : 0.05;
 double precioFinal = precio - (precio * descuento);
 
-Console.WriteLine($"Cliente: {nombre}");
-Console.WriteLine($"Categoría: {categoria}");
-Console.WriteLine($"Precio final: {precioFinal}");
+Console.WriteLine($"Cliente: {nombre}.");
+Console.WriteLine($"Categoría: {categoria}.");
+Console.WriteLine($"Precio final: {precioFinal}.");
 
 Console.WriteLine("- - - - - - - - - - ");
 
@@ -27,11 +27,11 @@ string? edadUsuario = Console.ReadLine();
 int.TryParse(edadUsuario, out int edad1);
 if (edad1 >= 18)
 {
-    Console.WriteLine($"ñ{nombreUsuario} Puedes tener tu pasaporte");
+    Console.WriteLine($"ñ{nombreUsuario}, puedes tener tu pasaporte.");
 }
 else
 {
-    Console.WriteLine($"{nombreUsuario} No cumples com los requisitos.");
+    Console.WriteLine($"{nombreUsuario}, no cumples com los requisitos.");
     return;
 }
 

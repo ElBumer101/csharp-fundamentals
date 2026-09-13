@@ -4,11 +4,11 @@ var requisitos = true;
 bool verificarBanco = (edadUsuario >= 18) && requisitos;
 if (verificarBanco)
 {
-    Console.WriteLine($" {nombreUsuario} Puedes sacar tu cuenta de banco premium");
+    Console.WriteLine($" {nombreUsuario}, puedes sacar tu cuenta de banco premium.");
 }
 else
 {
-    Console.WriteLine("Tus documentos no son validos");
+    Console.WriteLine("Tus documentos no son válidos.");
 }
 
 

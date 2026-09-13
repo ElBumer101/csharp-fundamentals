@@ -3,7 +3,7 @@
 //Quita las "," con Split(´,´);
 var datos ="Joseph, 17, Mexico";
 string[] partes = datos.Split(',');
-Console.WriteLine($"Encuent: {partes[0]}, {partes[1]}, {partes[2]}");
+Console.WriteLine($"Encuent: {partes[0]}, {partes[1]}, {partes[2]}.");
 
 
 
@@ -21,7 +21,7 @@ Console.WriteLine("- - - - - - - - -");
 var correo = "Thorffinth@icloud.com0";
 if (correo.Contains("@"))
 {
-    Console.WriteLine("El correo es valido");
+        Console.WriteLine("El correo es válido.");
 }
 
 
@@ -30,7 +30,7 @@ Console.WriteLine("- - - - - - - - -");
 //devuelve la posicion a un numero IndexOf(texto)
 var nombre3 = "Thorffinth";
 var buscarNumero = nombre3.IndexOf("t");//resultado = 8
-Console.WriteLine($"Devuelve la operacion Thorffinth a numero = {buscarNumero}");
+Console.WriteLine($"Devuelve la operación Thorffinth a número = {buscarNumero}.");
 
 Console.WriteLine("- - - - - - - - -"); 
 
@@ -78,7 +78,7 @@ Console.WriteLine("- - - - - - - - -");
 
 //Convertir texto a numero           n   m       
 bool exito = int.TryParse("18", out int numeroTryparse);
-Console.WriteLine($"Este numero esta echo con Tryparse {numeroTryparse}");
+Console.WriteLine($"Este número está echo con Tryparse: {numeroTryparse}.");
 
 Console.WriteLine("- - - - - - - - -"); 
 
@@ -91,7 +91,7 @@ if (int.TryParse (tuEdad, out int ResultadoTryparse))
 }
 else
 {
-    Console.WriteLine("Escriba solo un numero, sin letras y sin simbolos");
+        Console.WriteLine("Escriba solo un número, sin letras y sin símbolos.");
 }
 
 Console.WriteLine("- - - - - - - - -"); 
@@ -101,11 +101,11 @@ Console.WriteLine($"Ingresa un texto:");
 string? valorNull = Console.ReadLine();
 if (valorNull != null)
 {
-    Console.WriteLine($"El texto ingresado es el siguiente {valorNull}");
+    Console.WriteLine($"El texto ingresado es el siguiente: {valorNull}.");
 }
 else
 {
-    Console.WriteLine("No hay ningun dato valido");
+    Console.WriteLine("No hay ningún dato válido.");
 
 }
 
@@ -115,7 +115,7 @@ Console.WriteLine("- - - - - - - - -");
 int? EdadNull = 25;
 if (EdadNull.HasValue)
 {
-    Console.WriteLine($"Tu edad es correcta {EdadNull.Value}");
+    Console.WriteLine($"Tu edad es correcta: {EdadNull.Value}.");
 }
 else
 {
@@ -144,11 +144,11 @@ if ( calificaciones >= 90)
 }
 else if (calificaciones >= 80)
 {
-    Console.WriteLine("Tu calificacion es B");
+    Console.WriteLine("Tu calificación es B.");
 }
 else if (calificaciones >= 70)
 {
-    Console.WriteLine("Tu calificacion es C");
+    Console.WriteLine("Tu calificación es C.");
 }
 else
 {
